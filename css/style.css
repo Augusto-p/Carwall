@@ -3,6 +3,8 @@ body{
     background: #000;
     width: 99%;
     height: 100%;
+    padding: 0%;
+    margin: 0%;
 }
 #baner{
     background: black;
@@ -66,7 +68,8 @@ body{
 }
 .imgpreview{
   height: 100%;
-  margin: 0%;
+  display: block; 
+  margin: auto;
 }
 
 .checkbox_Select{
@@ -82,7 +85,7 @@ body{
   display: inline;
 }
 
-.Wallpepers{
+#Wallpepers{
 	background: black;
 	width: 100%;
 	height: 1000px;
@@ -107,19 +110,25 @@ body{
   border-color: red;
   border-width: 3px;
 	border-style: solid;
+  display: block; 
+  margin: 1 auto;
+  overflow: hidden;
 }
 
-.texto_wallpaper h3{
+.h3_text{
   position: relative;
   margin: 0%;
   color: #fff;
-  padding-left: 2px;
   font-family: 'Roboto', sans-serif;
   display: inline;
+  padding-left: 1px;
+
 }
-.texto_wallpaper i{
-  padding-left: 10px;
-  padding-right: 5px;
+.icon-Dimenciones{
+  padding-left: 15px;
+}
+.icon-display{
+  padding-left: 15px;
 }
 
 
@@ -135,7 +144,9 @@ body{
 .previw{
   width: 100%;
   height: 233px;
+  align-items: center;
   background: black;
+  
 }
 
 .download-bar{
