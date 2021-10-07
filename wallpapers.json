@@ -1,0 +1,148 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "mount_file_id": "1ubTNqIhPfPHB5kC2pZXXxgDlbFxHJRFm",
+      "authorship_tag": "ABX9TyPDguIDiVezdiS9U/NhKKbN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Augusto-p/Carwall/blob/main/wallpapers.json\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xBYSYmd9DtQR",
+        "outputId": "46d7f9e0-660c-4787-b006-92e6a28730be"
+      },
+      "source": [
+        "!git init"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Initialized empty Git repository in /content/.git/\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "SK3ZGr46D8L1"
+      },
+      "source": [
+        "!cp -r /content/Carwall /content/.git/Carwall"
+      ],
+      "execution_count": 9,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C-3nygFVGbNX",
+        "outputId": "102c6451-4f2c-447f-bdf7-e4079f5d7a14"
+      },
+      "source": [
+        "!ls /content/.git/"
+      ],
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "branches  Carwall  config  description\tHEAD  hooks  index  info  objects  refs\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Z50p6lC6KgPm"
+      },
+      "source": [
+        "\n",
+        "!git remote add origin git@github.com:Augusto-p/Carwall.git\n"
+      ],
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W5q170qwKwq_",
+        "outputId": "bb342119-4244-4a1b-e1d3-8df80e10cf81"
+      },
+      "source": [
+        "!git push -u /content/.git/ main"
+      ],
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "error: src refspec main does not match any.\n",
+            "error: failed to push some refs to '/content/.git/'\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "9gdYkRbrD9ix"
+      },
+      "source": [
+        "!git clone https://github.com/Augusto-p/Carwall.git"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "7jtA49kCEOAi"
+      },
+      "source": [
+        "!cp /content/drive/MyDrive/blob/Wallpapers.json /content/Carwall/data/Wallpapers.json"
+      ],
+      "execution_count": 7,
+      "outputs": []
+    }
+  ]
+}
