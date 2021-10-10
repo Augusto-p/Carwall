@@ -31,7 +31,7 @@ def bajar_archivo_por_id(id_drive,ruta_descarga):
 def busca(query):
     resultado = []
     credenciales = login()
-    lista_archivos = credenciales.ListFile({'q': "'1Supy-uhzhw2DnjOQ3fka0pFtgtc0SNRl' in parents and trashed=false"}).GetList()
+    lista_archivos = credenciales.ListFile({'q': "'1qj9ikwYFu52oB6ALA4HFAxcOs7uDmn9B' in parents and trashed=false"}).GetList()
     for f in lista_archivos:
         resultado.append([f['title'], f['id']])
     
