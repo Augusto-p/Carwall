@@ -1,0 +1,293 @@
+body{
+    background: #000;
+    width: 99%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+#baner{
+    background: black;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    margin: 0%;
+    overflow: hidden;
+}
+#banerIn{
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  
+}
+#banerIn div{
+  margin: 7px;
+}
+.logo{
+  width: 175px;
+  margin-right: 20px;
+}
+#title{
+    font-size: 75px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-decoration: underline;
+
+    text-decoration-color: red;
+}
+#subtitle{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#contacto{
+  font-size: 30px;
+  width: 0 auto;
+  height: 0 auto;
+  color: white;
+  padding: 5px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  top: 0%;
+  margin: 2px;
+}
+#btncontacto{
+  
+  text-decoration: none;
+  margin: 5px;
+  margin-top: 10px;
+  
+
+}
+.marcasOut {
+  width: 100%;
+  height: 115px;
+  position: relative;
+  background:black;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.marcasIn {
+  height: 125px;
+  display: inline-flex;
+  align-items: center;
+  animation: maracasAnimacion 70s linear infinite;
+  
+}
+.marcas {
+  height: 75px;
+  
+  
+
+}
+@keyframes maracasAnimacion {
+  0% {transform: translateX(65%);}
+  100% {transform: translateX(-65%);}
+}
+
+.marcasOut li{
+  list-style: none;
+}
+.imgpreview{
+  height: 100%;
+  display: block; 
+  margin: auto;
+}
+.marcasOut button{
+  background-color: #000;
+  border: none;
+}
+.checkbox_Select{
+  position: relative;
+  float: right;
+  bottom: 40px;
+  width: 52px;
+	height: 30px;
+  margin: 0%;
+}
+.texto_wallpaper{
+  margin: 0%;
+  display: inline;
+}
+
+#Wallpepers{
+	background: black;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+	overflow: hidden;
+
+}
+
+.item{
+	background-color: black;
+	width: 31%;
+	height: 290px;
+  position: relative;
+  border-radius: 1%;
+  border-color: red;
+  border-width: 3px;
+	border-style: solid;
+  display: block; 
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.h3_text{
+  position: relative;
+  margin: 0%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  display: inline;
+  padding-left: 1px;
+
+}
+.icon-Dimenciones{
+  padding-left: 15px;
+}
+.icon-display{
+  padding-left: 15px;
+}
+
+
+.texto_wallpaper div{
+  position: relative;
+  padding-left: 10px;
+  background-color: black;
+  height: auto;
+  margin: 0%;
+    
+}
+
+.previw{
+  width: 100%;
+  height: 233px;
+  align-items: center;
+  background: black;
+  
+}
+
+.download-bar{
+  background: black;
+  width: 100%;
+  height: 65px;
+  margin: 0%;
+  padding: 0%;
+  bottom: 0;
+  position: fixed;
+  align-items: center;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #323232;
+  justify-items: center;
+}
+#download{
+  background: black;
+  margin: 0%;
+  margin-right: 100px;
+  margin-top: 10px;
+  border-radius: 1%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  float: right;
+  justify-content: center;
+  padding: 0%;
+  padding-top: 4px;
+  font-size: 40px;
+  
+}
+#download-icon{
+  margin-top: 20px;
+}
+#name_pack{
+  background: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  border: none;
+  margin-left: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+  
+}
+.name_pack:focus{
+  background: black;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px; 
+
+}
+#box-icon{
+  margin-left: 50px;
+  padding-top: 5px;
+  margin-top: 15px;
+  font-size: 25px;
+  color: #fff;
+
+}
+.download-bar h2{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  float: right;
+  margin-right: 500px;
+  display: inline;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: red;
+
+}
+.home-a{
+  text-decoration: none;
+  margin: 5px;
+  margin-top: 10px;
+}
+.home{
+  font-size: 30px;
+  width: 0 auto;
+  height: 0 auto;
+  color: white;
+  padding: 5px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  top: 0%;
+  margin: 2px;
+}
+#botondemas{
+    margin: 10px;
+    margin-bottom: 70px;
+    display: flex;
+}
+#botonvermas{
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    border-radius: 50px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}

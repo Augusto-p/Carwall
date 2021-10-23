@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!--iconos-->
+    <link rel="stylesheet" href="../icons/icomoon/style.css">
+    <link rel="stylesheet" href="../icons/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+    <!--JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.js"></script>
+    <script src="../js/Global.js"></script>
+    <script src="../js/main_marca.js" defer></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <!--estilos-->
+    <link rel="stylesheet" href="../css/style_global.css">
+    <link rel="stylesheet" href="../css/style_marcas.css">
+</head>
+<body>
+    <div id="baner">
+        <a class="home-a" href="Carwall.html">
+            <i class="icon-home home"></i>
+        </a>
+        <div id="banerIn">
+    
+            <div>
+                <img class="logo" src="../img/Logo.png" alt="">
+            </div>
+            <div>
+                <h1 id="title">CarWall</h1>
+                <h2 id="subtitle">By CarWall</h2>
+            </div>
+            
+        </div>
+        <a href="contacto.html" id="btncontacto">
+            <i class="icon-contacto" id="contacto"></i>
+        </a>
+    </div>
+    <div id="databaner">
+        <div class="DataBanerIN">
+            <h2>Fundadores:</h2>
+            <h2>Sede:</h2>
+            <h2>Año de Fundacion:</h2>
+            <h2>Cantidad De Wallpepers:</h2>
+        </div>
+        <div class="DataBanerIN">
+            <h2 id="FundadoresIn"></h2>
+            <h2 id="SedeIn"></h2>
+            <h2 id="AñoIn"></h2>
+            <h2 id="WallpersIn"></h2>
+            </div>
+        </div>
+
+    </div>
+    <div class="marcasOut">
+        <ul class="marcasIn">
+            <li>
+                <button onclick="Ira('Alfa Romeo')">
+                    <img class="marcas" src="../img/svg/alfa.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('Aston Martin')">
+                    <img class="marcas" src="../img/svg/Aston.svg" />
+                </button>
+            </li>
+    
+            <li>
+                <button onclick="Ira('Audi')">
+                    <img class="marcas" src="../img/svg/Audi.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('Bentley')">
+                    <img class="marcas" src="../img/svg/bentley.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('BMW')">
+                    <img class="marcas" src="../img/svg/BMW.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('Bugatti')">
+                    <img class="marcas" src="../img/svg/bugatti.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('Chevrolet')">
+                    <img class="marcas" src="../img/svg/chevrolet.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Ferrari')">
+                    <img class="marcas" src="../img/svg/Ferrari.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Ford')">
+                    <img class="marcas" src="../img/svg/ford.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Honda')">
+                    <img class="marcas" src="../img/svg/honda.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Jaguar')">
+                    <img class="marcas" src="../img/svg/jaguar.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Koenigsegg')">
+                    <img class="marcas" src="../img/svg/koenigsegg.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Lamborghini')">
+                    <img class="marcas" src="../img/svg/lamborghini.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Lotus')">
+                    <img class="marcas" src="../img/svg/lotus.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Maserati')">
+                    <img class="marcas" src="../img/svg/matserati.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('McLaren')">
+                    <img class="marcas" src="../img/svg/mclaren.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Mercedes Benz')">
+                    <img class="marcas" src="../img/svg/mercedes-benz.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Mercedes Maybach')">
+                    <img class="marcas" src="../img/svg/maybach.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Mercedes Amg')">
+                    <img class="marcas" src="../img/svg/amg.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Nissan')">
+                    <img class="marcas" src="../img/svg/nissan.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Pagani')">
+                    <img class="marcas" src="../img/svg/pagnni.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Porsche')">
+                    <img class="marcas" src="../img/svg/porsche.svg" />
+                </a>
+            </li>
+            <li>
+                <button onclick="Ira('Rolls-Royce')">
+                    <img class="marcas" src="../img/svg/rolceroyce.svg" />
+                </a>
+            </li>-->
+        </ul>
+    </div>
+    <div id="Wallpepers">
+    </div>
+    <div id="botondemas">
+
+    </div>
+    <div class="download-bar">
+        <i class="fas fa-archive" id="box-icon"><input type="text" id="name_pack"></i>
+    
+        <button id="download" onclick="checboxcontrol()">
+            <i class="icon-download" id="download-icon"></i>
+        </button>
+        <h2>CarWall</h2>
+    
+    </div>
+</body>
+</html>

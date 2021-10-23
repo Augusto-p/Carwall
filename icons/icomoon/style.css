@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?1dq6wb');
-  src:  url('fonts/icomoon.eot?1dq6wb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?1dq6wb') format('truetype'),
-    url('fonts/icomoon.woff?1dq6wb') format('woff'),
-    url('fonts/icomoon.svg?1dq6wb#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1bktm');
+  src:  url('fonts/icomoon.eot?1bktm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1bktm') format('truetype'),
+    url('fonts/icomoon.woff?1bktm') format('woff'),
+    url('fonts/icomoon.svg?1bktm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,11 +25,397 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-germany-flag .path1:before {
+  content: "\e902";
+  color: rgb(255, 255, 0);
+}
+.icon-germany-flag .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-germany-flag .path3:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 0, 0);
+}
+.icon-germany-flag .path4:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(252, 90, 99);
+}
+.icon-france-flag .path1:before {
+  content: "\e906";
+  color: rgb(254, 75, 85);
+}
+.icon-france-flag .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(65, 71, 154);
+}
+.icon-france-flag .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(244, 244, 244);
+}
+.icon-itali-flag .path1:before {
+  content: "\e909";
+  color: rgb(76, 127, 86);
+}
+.icon-itali-flag .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(229, 230, 231);
+}
+.icon-itali-flag .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(191, 58, 43);
+}
+.icon-japon-flag .path1:before {
+  content: "\e90c";
+  color: rgb(239, 239, 239);
+}
+.icon-japon-flag .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(215, 0, 39);
+}
+.icon-suecia-flag .path1:before {
+  content: "\e90e";
+  color: rgb(253, 203, 0);
+}
+.icon-suecia-flag .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(0, 106, 166);
+}
+.icon-suecia-flag .path3:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(0, 106, 166);
+}
+.icon-suecia-flag .path4:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 106, 166);
+}
+.icon-suecia-flag .path5:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(0, 106, 166);
+}
+.icon-UK-flag .path1:before {
+  content: "\e913";
+  color: rgb(215, 0, 39);
+}
+.icon-UK-flag .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(239, 239, 239);
+}
+.icon-UK-flag .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(239, 239, 239);
+}
+.icon-UK-flag .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(239, 239, 239);
+}
+.icon-UK-flag .path5:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(239, 239, 239);
+}
+.icon-UK-flag .path6:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(215, 0, 39);
+}
+.icon-UK-flag .path7:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(215, 0, 39);
+}
+.icon-UK-flag .path8:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(215, 0, 39);
+}
+.icon-UK-flag .path9:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(215, 0, 39);
+}
+.icon-UK-flag .path10:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(0, 82, 179);
+}
+.icon-UK-flag .path11:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(0, 82, 179);
+}
+.icon-UK-flag .path12:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(0, 82, 179);
+}
+.icon-UK-flag .path13:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(0, 82, 179);
+}
+.icon-UK-flag .path14:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(0, 82, 179);
+}
+.icon-UK-flag .path15:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(0, 82, 179);
+}
+.icon-UK-flag .path16:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(0, 82, 179);
+}
+.icon-UK-flag .path17:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(0, 82, 179);
+}
+.icon-USA-flag .path1:before {
+  content: "\e924";
+  color: rgb(40, 86, 127);
+}
+.icon-USA-flag .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(229, 230, 231);
+}
+.icon-USA-flag .path3:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(229, 230, 231);
+}
+.icon-USA-flag .path4:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(191, 58, 43);
+}
+.icon-USA-flag .path5:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(191, 58, 43);
+}
+.icon-USA-flag .path6:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(229, 230, 231);
+}
+.icon-USA-flag .path7:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(229, 230, 231);
+}
+.icon-USA-flag .path8:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(191, 58, 43);
+}
+.icon-USA-flag .path9:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(191, 58, 43);
+}
+.icon-USA-flag .path10:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(229, 230, 231);
+}
+.icon-USA-flag .path11:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(191, 58, 43);
+}
+.icon-USA-flag .path12:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path13:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path14:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path15:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path16:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path17:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path18:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path19:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path20:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path21:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path22:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path23:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path24:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path25:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path26:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path27:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path28:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path29:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path30:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path31:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path32:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path33:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path34:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path35:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path36:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path37:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path38:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path39:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path40:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path41:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path42:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path43:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(234, 238, 239);
+}
+.icon-USA-flag .path44:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(234, 238, 240);
+}
 .icon-Dimenciones:before {
   content: "\e900";
 }
 .icon-home:before {
   content: "\e901";
+}
+.icon-contacto:before {
+  content: "\e945";
 }
 .icon-display:before {
   content: "\e956";

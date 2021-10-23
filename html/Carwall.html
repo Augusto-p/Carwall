@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="../icons/icomoon/style.css">
     <link rel="stylesheet" href="../icons/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
     <!--JavaScript-->
-    <script type="text/javascript" src="../js/main.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.js"></script>
+    <script src="../js/Global.js"></script>
+    <script src="../js/main.js" defer></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
     <!--estilos-->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_global.css">
     
     
     <title>CarWall</title>
@@ -22,128 +25,140 @@
 <body>
     
     <div id="baner">
-        <h1 id="title">CarWall</h1>
-        <h2 id="subtitle">Wallpepers de Autos</h2>       
+        <div id="banerIn">
+            <div>
+                <img class="logo" src="../img/Logo.png" alt="">
+            </div>
+            <div>
+                <h1 id="title">CarWall</h1>
+                <h2 id="subtitle">Wallpepers de Autos</h2>
+            </div>
+        </div>
+        <a href="contacto.html" id="btncontacto">
+            <i class="icon-contacto" id="contacto"></i>
+        </a>
+           
     </div>
     <div class="marcasOut">
         <ul class="marcasIn">
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Alfa Romeo.png" />
+                <button onclick="Ira('Alfa Romeo')">
+                    <img class="marcas" src="../img/svg/alfa.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('Aston Martin')">
+                    <img class="marcas" src="../img/svg/Aston.svg" />
+                </button>
+            </li>
+    
+            <li>
+                <button onclick="Ira('Audi')">
+                    <img class="marcas" src="../img/svg/Audi.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('Bentley')">
+                    <img class="marcas" src="../img/svg/bentley.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('BMW')">
+                    <img class="marcas" src="../img/svg/BMW.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('Bugatti')">
+                    <img class="marcas" src="../img/svg/bugatti.svg" />
+                </button>
+            </li>
+            <li>
+                <button onclick="Ira('Chevrolet')">
+                    <img class="marcas" src="../img/svg/chevrolet.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Aston Martin.png" />
+                <button onclick="Ira('Ferrari')">
+                    <img class="marcas" src="../img/svg/Ferrari.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Audi.png" />
+                <button onclick="Ira('Ford')">
+                    <img class="marcas" src="../img/svg/ford.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Bentley.png" />
+                <button onclick="Ira('Honda')">
+                    <img class="marcas" src="../img/svg/honda.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/BMW.png" />
+                <button onclick="Ira('Jaguar')">
+                    <img class="marcas" src="../img/svg/jaguar.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/bugatti.svg" />
+                <button onclick="Ira('Koenigsegg')">
+                    <img class="marcas" src="../img/svg/koenigsegg.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Chevrolet.png" />
+                <button onclick="Ira('Lamborghini')">
+                    <img class="marcas" src="../img/svg/lamborghini.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Ferrari.png" />
+                <button onclick="Ira('Lotus')">
+                    <img class="marcas" src="../img/svg/lotus.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Ford.png" />
+                <button onclick="Ira('Maserati')">
+                    <img class="marcas" src="../img/svg/matserati.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Honda.png" />
+                <button onclick="Ira('McLaren')">
+                    <img class="marcas" src="../img/svg/mclaren.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Jaguar.png" />
+                <button onclick="Ira('Mercedes Benz')">
+                    <img class="marcas" src="../img/svg/mercedes-benz.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/koenigsegg.svg" />
+                <button onclick="Ira('Mercedes Maybach')">
+                    <img class="marcas" src="../img/svg/maybach.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/lamborghini.png" />
+                <button onclick="Ira('Mercedes Amg')">
+                    <img class="marcas" src="../img/svg/amg.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Lotus.png" />
+                <button onclick="Ira('Nissan')">
+                    <img class="marcas" src="../img/svg/nissan.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Maserati.png" />
-                </a>
-            </li>
-           <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/McLaren.png" />
-                </a>
-           </li>
-           <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Mercedes Benz.png" />
-                </a>
-           </li>
-           <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Mercedes Maybach.png" />
-                </a>
-           </li>
-           <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Mercedes AMG.png" />
-                </a>
-           </li>
-            <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Nissan.png" />
+                <button onclick="Ira('Pagani')">
+                    <img class="marcas" src="../img/svg/pagnni.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Pagani.png" />
-                </a>
-            </li>          
-            <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Porsche.png" />
+                <button onclick="Ira('Porsche')">
+                    <img class="marcas" src="../img/svg/porsche.svg" />
                 </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/logos_marcas/Rolls-Royce.png" />
+                <button onclick="Ira('Rolls-Royce')">
+                    <img class="marcas" src="../img/svg/rolceroyce.svg" />
                 </a>
-            </li>
+            </li>-->
         </ul>
-    </div>
+    </div>  
     <div id="Wallpepers">
         <!--
         <div class="item">
@@ -162,7 +177,7 @@
                     <h3 class="icon-display h3_text">   16:9</h3>
                 </div>  
                 <input type="checkbox" value="holanda" id="IMG1" class="checkbox_Select">
-                <input type="checkbox" value="wakanda" id="IMG1" class="checkbox_Select">
+                <input type="checkbox" value="wakanda" id="IMG2" class="checkbox_Select">
                 
                 
             </div>
@@ -173,10 +188,13 @@
         -->
         
     </div>
+    <div id="botondemas">
+    
+    </div>
     <div class="download-bar">
-        <i class="fas fa-archive" id="box-icon"><input type="text" class="name_pack"></i>
+        <i class="fas fa-archive" id="box-icon"><input type="text" id="name_pack"></i>
         
-        <button id="download" onclick="checboxcontrol()">
+        <button id="download" onclick="selectBox()">
             <i class="icon-download" id="download-icon"></i>
         </button>
         <h2>CarWall</h2>
