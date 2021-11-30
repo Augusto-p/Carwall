@@ -18,12 +18,12 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
     <!--estilos-->
     <link rel="stylesheet" href="../css/style_global.css">
+    <link rel="shortcut icon" href="../icons/icono.ico">
     
     
     <title>CarWall</title>
 </head>
 <body>
-    
     <div id="baner">
         <div id="banerIn">
             <div>
@@ -37,6 +37,8 @@
         <a href="contacto.html" id="btncontacto">
             <i class="icon-contacto" id="contacto"></i>
         </a>
+        
+        
            
     </div>
     <div class="marcasOut">
@@ -192,13 +194,20 @@
     
     </div>
     <div class="download-bar">
-        <i class="fas fa-archive" id="box-icon"><input type="text" id="name_pack"></i>
-        
-        <button id="download" onclick="selectBox()">
-            <i class="icon-download" id="download-icon"></i>
-        </button>
-        <h2>CarWall</h2>
-
+        <div class="download-bar-in">
+            <div>
+                <i class="fas fa-archive" id="box-icon"></i>
+                <input type="text" id="name_pack">
+            </div>
+        </div>
+        <div class="download-bar-in">
+            <h2>CarWall</h2>
+        </div>
+        <div class="download-bar-in">
+            <button id="download" onclick="Download()">
+                <i class="icon-download" id="download-icon">Download</i>
+            </button>
+        </div>
     </div>
 </body>
 </html>

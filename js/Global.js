@@ -75,18 +75,31 @@ function LeerJSON(filePath) {
 }
 function Ira(marca) {
     marca = "'" + marca + "'"
-    var paquetname = document.getElementById('name_pack').value
-    if (paquetname == "") {
-        paquetname = null;
-    }
-    var Selecionados = document.getElementsByClassName('checkbox_Select');
-    var SelecionadosLista = []
-    for (var x = 0; x < Selecionados.length; x++) {
-        if (Selecionados[x].checked) {
-            SelecionadosLista.push(Selecionados[x].value);
+    if ("contacto.html" == document.URL.split('/').pop()){
+        if (marca != "'home'") {
+            var url = 'Marcas.html?Marca=' + marca + '&Package=' + '&Select=';
+        } else {
+            var url = 'CarWall.html?Package=' + '&Select=';
+        }
+        
+    }else{
+        var paquetname = document.getElementById('name_pack').value
+        if (paquetname == "") {
+            paquetname = null;
+        }
+        var Selecionados = document.getElementsByClassName('checkbox_Select');
+        var SelecionadosLista = []
+        for (var x = 0; x < Selecionados.length; x++) {
+            if (Selecionados[x].checked) {
+                SelecionadosLista.push(Selecionados[x].value);
+            }
+        }
+        if (marca != "'home'") {
+            var url = 'Marcas.html?Marca=' + marca + '&Package=' + paquetname + '&Select=' + SelecionadosLista;
+        } else {
+            var url = 'CarWall.html?Package=' + paquetname + '&Select=' + SelecionadosLista;
         }
     }
-    var url = 'Marcas.html?Marca=' + marca + '&Paquete=' + paquetname + '&Select=' + SelecionadosLista;
     const link = document.createElement('a');
     link.setAttribute('href', url)
     link.click()
@@ -121,6 +134,49 @@ function RandomNums(cantidad, Hasta) {
     return out
 }
 
-function checkbutonF(){
-    console.log('hola')
+function getListaDeSelecionados(SelectionadosStr) {
+    return SelectionadosStr.split(",");
+}
+function generateNameZip(urldata) {
+    if (urldata != "" & urldata != "null"){
+        const name_pack = document.getElementById("name_pack");
+        name_pack.value = urldata
+    }else{
+        
+        const name_pack = document.getElementById("name_pack");
+        name_pack.value = "Package_Nº_" + Math.floor(Math.random() * 7999999)
+    }
+    
+}
+
+function Download() {
+    var filename = document.getElementById('name_pack').value;
+    var SelecionadosListaURL = getListaDeSelecionados(getParameterByName('Select'));
+    var selecionadosListaPAG = []
+    var Selecionados = document.getElementsByClassName('checkbox_Select');
+    for (var x = 0; x < Selecionados.length; x++) {
+        if (Selecionados[x].checked) {
+            selecionadosListaPAG.push(Selecionados[x].value);
+        }
+    }
+    var SelecionadosListaA = Array.from(new Set([...selecionadosListaPAG, ...SelecionadosListaURL]));
+    var SelecionadosListaA = SelecionadosListaA.filter(function (el) {return el != "";});
+    var zip = new JSZip();
+    for(A in SelecionadosListaA){
+        ID = SelecionadosListaA[A]
+        var obj = DataBase.filter(obj => (obj.id) == ID)[0];
+        var datos = LeerJSON(obj.SaveData)
+        var name = datos.name + ".jpg"
+        var imgdata = datos.base64
+        zip.file(name, imgdata, { base64: true });     
+    }
+    zip.generateAsync({ type: "blob" })
+        .then(function (content) {
+            saveAs(content, filename + ".zip");
+        });
+
+    
+}
+function encodeUTF(s) {
+    return unescape(encodeURIComponent(s));
 }

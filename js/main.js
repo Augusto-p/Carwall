@@ -31,5 +31,5 @@ function CreateHome(){
 
 DataBase = LeerJSON('https://raw.githubusercontent.com/Augusto-p/Carwall/main/DataBase/Wallpapers.json')
 CreateHome();
-
+generateNameZip(getParameterByName('Package'));
 

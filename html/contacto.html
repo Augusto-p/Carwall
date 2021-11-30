@@ -8,18 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
     <!--iconos-->
     <link rel="stylesheet" href="../icons/icomoon/style.css">
     <link rel="stylesheet" href="../icons/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
     <!--JavaScript-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js" ></script>
     <script src="../js/Global.js"></script>
     <script src="../js/Contacto.js"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <!--estilos-->
     <link rel="stylesheet" href="../css/style_global.css">
     <link rel="stylesheet" href="../css/style_contact.css">
-
+    <link rel="shortcut icon" href="../icons/icono.ico">
 
     <title>CarWall</title>
 </head>
@@ -27,12 +28,11 @@
 <body>
 
     <div id="baner">
-        <a class="home-a" href="Carwall.html">
+        <button class="btnHome" onclick="Ira('home')">
             <i class="icon-home home"></i>
-        </a>
+        </button>
 
         <div id="banerIn">
-            
             <div>
                 <img class="logo" src="../img/Logo.png" alt="">
             </div>
@@ -47,131 +47,132 @@
     <div class="marcasOut">
         <ul class="marcasIn">
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Alfa Romeo')">
                     <img class="marcas" src="../img/svg/alfa.svg" />
-                </a>
+                </button>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Aston Martin')">
                     <img class="marcas" src="../img/svg/Aston.svg" />
-                </a>
+                </button>
             </li>
-            
+    
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Audi')">
                     <img class="marcas" src="../img/svg/Audi.svg" />
-                </a>
+                </button>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Bentley')">
                     <img class="marcas" src="../img/svg/bentley.svg" />
-                </a>
+                </button>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('BMW')">
                     <img class="marcas" src="../img/svg/BMW.svg" />
-                </a>
+                </button>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Bugatti')">
                     <img class="marcas" src="../img/svg/bugatti.svg" />
-                </a>
+                </button>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Chevrolet')">
                     <img class="marcas" src="../img/svg/chevrolet.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Ferrari')">
                     <img class="marcas" src="../img/svg/Ferrari.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Ford')">
                     <img class="marcas" src="../img/svg/ford.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Honda')">
                     <img class="marcas" src="../img/svg/honda.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Jaguar')">
                     <img class="marcas" src="../img/svg/jaguar.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Koenigsegg')">
                     <img class="marcas" src="../img/svg/koenigsegg.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Lamborghini')">
                     <img class="marcas" src="../img/svg/lamborghini.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
-                    <img class="marcas" src="../img/svg/lotus.svg" /> 
-                </a>
+                <button onclick="Ira('Lotus')">
+                    <img class="marcas" src="../img/svg/lotus.svg" />
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Maserati')">
                     <img class="marcas" src="../img/svg/matserati.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('McLaren')">
                     <img class="marcas" src="../img/svg/mclaren.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Mercedes Benz')">
                     <img class="marcas" src="../img/svg/mercedes-benz.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Mercedes Maybach')">
                     <img class="marcas" src="../img/svg/maybach.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Mercedes Amg')">
                     <img class="marcas" src="../img/svg/amg.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Nissan')">
                     <img class="marcas" src="../img/svg/nissan.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Pagani')">
                     <img class="marcas" src="../img/svg/pagnni.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Porsche')">
                     <img class="marcas" src="../img/svg/porsche.svg" />
-                </a>
+                    </a>
             </li>
             <li>
-                <a href="http:lol">
+                <button onclick="Ira('Rolls-Royce')">
                     <img class="marcas" src="../img/svg/rolceroyce.svg" />
-                </a>
+                    </a>
             </li>-->
         </ul>
     </div>
-    <div id="did">
-        <form class="form-register" onsubmit="a()">
+    <div id="general">
+        <form class="contact-form" onsubmit="Send()">
             <h4>Contacto</h4>
-            <input class="controls" type="text" name="name" placeholder="Ingrese su Nombre">
-            <input class="controls" type="email" name="mail" placeholder="Ingrese su Correo">
-            <input class="controls" type="text" name="asunto" placeholder="Ingrese el Asunto">
-            <textarea class="controls mensaje" name="msg" placeholder="Ingrese su Mensaje"></textarea>
-            <input class="botons" type="submit" value="Registrar">
+            <input class="InputDatos" autocomplete="off" autofocus type="text" name="name" placeholder="Ingrese su Nombre" required>
+            <input class="InputDatos" autocomplete="off" type="email" name="mail" placeholder="Ingrese su Correo" required>
+            <input class="InputDatos" autocomplete="off" type="text" name="asunto" placeholder="Ingrese el Asunto" required>
+            <textarea class="InputDatos mensaje" autocomplete="off" name="msg" placeholder="Ingrese su Mensaje" minlength="75" required></textarea>
+            <button class="botons">Enviar</button>
+            
             
         </form>
     </div>

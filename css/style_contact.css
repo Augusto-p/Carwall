@@ -1,52 +1,70 @@
-.form-register {
+.contact-form {
   width: 450px;
-  background: black;
+  background: #000000;
   padding: 0px;
   margin: auto;
   margin-top: 0%;
-  font-family: 'calibri';
-  color: white;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
   border-radius: 20px;
   border-style: solid;
-  border-width: 15px;
+  border-width: 8px;
+  border-color: #ff0000;
   text-align: center;
+  margin-top: 15px;
   
 }
 
-.form-register h4 {
+
+.contact-form h4 {
   font-size: 50px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-style: inherit;
   margin-top: 0px;
   margin-bottom: 10px;
 }
 
-.controls {
+.InputDatos {
   width: 80%;
   background: #24303c;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid red;
+  border: 1px solid #ff0000;
   font-family: 'calibri';
   font-size: 18px;
-  color: white;
+  color: #ffffff;
 }
 
 
 .mensaje{
-    height: 200px;
+    height: 185px;
 }
 
 .botons {
   width: 85%;
-  background: black;
+  background: #000000;
+  cursor: pointer;
   border: none;
   padding: 12px;
-  color: white;
+  color: #ffffff;
   margin: 16px 0;
   font-size: 25px;
   border-radius: 10px;
   margin-bottom: 16px;
-  border: 3px solid red;
+  border: 2px solid #ff0000;
   
+}
+.botons:focus{
+  border-color: #6A0F0F;
+}
+
+.InputDatos:focus{
+  outline: none;
+  border-color: #6A0F0F;
+
+}
+.InputDatos:valid{
+  outline: none;
+  border-color: #00ff90;
 }
